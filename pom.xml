@@ -27,20 +27,20 @@
     </properties>
     
     <scm>
-        <url>https://github.com/redhat-mobile-consulting/springboot-template.git</url>
-        <connection>scm:git:https://github.com/redhat-mobile-consulting/springboot-template.git</connection>
-        <developerConnection>scm:git:https://github.com/redhat-mobile-consulting/springboot-template.git</developerConnection>
+        <url>https:https://github.com/opokumanu/springboot-template.git</url>
+        <connection>scm:git:https://github.com/opokumanu/springboot-template.git</connection>
+        <developerConnection>scm:git:https://github.com/opokumanu/springboot-template.git</developerConnection>
         <tag></tag>
     </scm>
     
     <distributionManagement>
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <url>http://nexus3-misanche-nexus.apps.na39.openshift.opentlc.com/repository/maven-snapshots</url>
+            <url>http://nexus-omanu-xpass.apps.na311.openshift.opentlc.com/content/repositories/snapshots/maven-snapshots</url>
         </snapshotRepository>
         <repository>
             <id>nexus-releases</id>
-            <url>http://nexus3-misanche-nexus.apps.na39.openshift.opentlc.com/repository/maven-releases</url>
+            <url>http://nexus-omanu-xpass.apps.na311.openshift.opentlc.com/content/repositories/releases/maven-releases</url>
         </repository>
     </distributionManagement>
     
